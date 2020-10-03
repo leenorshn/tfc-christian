@@ -11,9 +11,9 @@
         </h2>
       </div>
       <div class="menu">
-        <router-link to="/">Activité</router-link> 
-        <router-link to="/about">Rayon d'action</router-link>
-        <router-link to="/">Agent</router-link> 
+        <router-link to="/">Accueil</router-link>
+        <router-link to="/Activite">Activité</router-link> 
+        <router-link to="/Agent">Agent</router-link> 
       </div>
     </header>
     <div class="main-app">
@@ -26,13 +26,14 @@
 *{
   margin:0px;
   padding:0px;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  background-color:#8cafd3;
   color: #2c3e50;
 }
 header{
